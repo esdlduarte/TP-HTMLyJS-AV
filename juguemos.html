@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juguemos</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <nav>
+        <svg>
+           <a href="principal.html">
+             <rect class="abajo1" x="45" y="5" width="75" height="44" rx="6" fill="#F0E9D2"></rect>
+             <rect class="arriba1" x="50" y="10" width="65" height="35" rx="6" fill="#495579"></rect>
+             <polygon class="abajo2" points="55 50 ,110 50,125 70,40 70" fill="#F0E9D2" ></polygon>
+             <polygon class="arriba2" points="60 53 ,106 53,117 67,48 67" fill="#495579"></polygon>
+           </a>
+        </svg>
+       <ul class="menu">
+        <a class="efectoBoton" href="historia.html"> <li class="botonMenu"> 
+          HISTORIA
+        </li></a>
+        <a class="efectoBoton" href=""><li class="botonMenu"> 
+          JUGUEMOS
+          </li></a>
+    </ul>
+        </nav>
+        <header>
+            <h1>JUGUEMOS UN POCO</h1>
+          </header>
+<div class="cont4">
+  <h2>Armemos el rompecabezas y veamos que imagen es</h2>
+   <div class="cuadros">
+     <div class="cuadro1" id="0" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <p class="p1">Arrastre y suelte la imagen aqui</p>
+     </div>
+     <div class="cuadro2" id="1" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <p class="p2">Arrastre y suelte la imagen aqui</p>
+     </div>
+     <div class="cuadro3" id="2" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <p class="p3">Arrastre y suelte la imagen aqui</p>
+     </div>
+    </div>
+    <div class="cuadroImagenes">
+     <div class="imagen1">
+       <img src="./assets/imagenes/rompe2.png" alt="imagen rombo 1" draggable="true" ondragstart="drag(event)" id="img1" height="400px" width="280px"/>
+     </div>
+     <div class="imagen2">
+       <img src="./assets/imagenes/Rompe1.png" alt="imagen rombo 2" draggable="true" ondragstart="drag(event)" id="img2" height="400px" width="280px"/>
+     </div>
+     <div class="imagen3">
+     <img src="./assets/imagenes/Rompe3.png"  alt="imagen rombo 3" draggable="true" ondragstart="drag(event)" id="img3" height="400px" width="280px"/>
+     </div>
+    </div>
+</div>
+<h3></h3>
+<div class="contenedorBoton">
+<a class="botonReinicio" href="">  
+      REINICIAR
+    </a>
+  </div>
+
+
+          <footer>
+            <div class="izquierdaFooter">
+              <img class="imagenFooter" src="./assets/imagenes/logo.png">
+              <div class="parrafoFooter"><p>PROGRAMACION<br>
+              E<br>
+              HISTORIA</p></div>
+            </div>
+              <p>Sitio con fines educativos - Creado por M.Victoria Lopez</p>
+          </footer>
+          <script src="./script.js"></script>
+</body>
+</html>
